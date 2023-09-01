@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F4F4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+
+.card-container{
+    display: flex;
+    gap: 16px;
+}
+
+.card{
+    width: 200px;
+    background-color: #FFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    box-shadow: 0px 2px 4px #0005;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #fff9;
+}
+
+.card img{
+    max-width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}
